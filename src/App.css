@@ -1,3 +1,12 @@
+body {
+  min-height: 100vh;
+  max-height: 1000vh;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+
+/*light purpley rgba(183, 189, 216, 0.9) */
+
 .App {
   text-align: center;
 }
@@ -35,4 +44,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/* FONTS */
+/* main -  */
+/* title - font-family: 'Fugaz One', cursive; */
+
+h1 {
+  font-family: 'Fugaz One', cursive;
+  font-size:5vh;
+  color: white;
+  /* background-color: rgba(233, 182, 220, 0.651); */
+  margin-left: 5%;
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+  color: black
 }

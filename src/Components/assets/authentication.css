@@ -1,0 +1,21 @@
+body{
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.login, .register {
+    width: 70%;
+    background-color: rgb(202, 239, 248);
+    /* opacity: 1; */
+    margin-left:15%;
+    padding: 3%;
+    margin-top: 1%;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+

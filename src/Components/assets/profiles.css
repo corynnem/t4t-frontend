@@ -1,0 +1,64 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:transparent;
+  }
+
+  .image-input {
+    display: flex;
+    color: transparent
+    
+}
+
+.image {
+    height: 10vh;
+
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+input[type="file"] {
+  position: absolute;
+  font-size:  14px;
+  color: black;
+  display: flex;
+  opacity: 0;
+}
+.button-wrap {
+  position: relative;
+}
+.button {
+  display: inline-block;
+  background-color: #ffc8dd;
+  border-radius: 10px;
+  border: 0px #cccccc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 8px;
+  width: 10vw;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button:hover {
+  background-color: #feeafa;
+}
+
